@@ -12,7 +12,7 @@ namespace Brasileirao
             this.pontuacao = pont;
         }
         public void dados() {
-            System.Console.WriteLine("\ntime: " + times + " | pontuação: " + pontuacao);
+            System.Console.WriteLine("\n\nTime: " + times + "/Pontuação: " + pontuacao);
         }
     }
 } 
