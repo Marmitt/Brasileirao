@@ -6,7 +6,8 @@ namespace Brasileirao
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TabelaBrasileirao tabela = new TabelaBrasileirao();
+            tabela.tabela();
         }
     }
 }
