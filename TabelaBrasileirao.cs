@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Brasileirao
 {
@@ -7,7 +8,12 @@ namespace Brasileirao
         public ListaTimes times = new ListaTimes();
         public void tabela() {
             System.Console.WriteLine("Tabela Brasileirão");
-            System.Console.WriteLine("1 - Adiciona os times e a pontuação/n2 - Exibe o resultado da tabela");
+            System.Console.WriteLine("Enter - Adiciona os times e a pontuação/n0 - Exibe o resultado da tabela");
+
+            while (Console.ReadKey().Key == ConsoleKey.Enter) {
+                System.Console.WriteLine("Nome Do Time: ");
+                string time = Console.ReadLine();
+            }
         }
     }
 }
