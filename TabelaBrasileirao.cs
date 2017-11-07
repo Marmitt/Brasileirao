@@ -12,11 +12,11 @@ namespace Brasileirao
 
             while (Console.ReadKey().Key == ConsoleKey.Enter) {
                 System.Console.WriteLine("Nome Do Time: ");
-                string time = Console.ReadLine();
+                string times = Console.ReadLine();
 
                 System.Console.WriteLine("Pontuação do time: ");
-                int pont = Convert.ToInt32(Console.ReadLine());
-                this.times.Add(new Times(time, pont));
+                int pontuacao = Convert.ToInt32(Console.ReadLine());
+                this.times.Add(new Times(times, pontuacao));
             }
 
             for (int i = 0; i < times.Count; i++) {
