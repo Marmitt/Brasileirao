@@ -7,7 +7,7 @@ namespace Brasileirao
         private string times;
         private int pontuacao;
 
-        public Times(string nomeTime, int pontuacao) {
+        public Times(string nomeTimes, int pont) {
             this.times = nomeTimes;
             this.pontuacao = pont;
         }

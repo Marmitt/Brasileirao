@@ -5,7 +5,7 @@ namespace Brasileirao
 {
     class TabelaBrasileirao
     {
-        public ListaTimes times = new ListaTimes();
+        public Lista<Times> times = new Lista<Times>();
         public void tabela() {
             System.Console.WriteLine("Tabela Brasileirão");
             System.Console.WriteLine("Enter - Adiciona os times e a pontuação/n0 - Exibe o resultado da tabela");
