@@ -4,16 +4,12 @@ namespace Brasileirao
 {
     class Times
     {
-        private string times;
-        private int pontuacao;
+        public string time;
+        public int pont;
 
-        public Times(string nomeTimes, int pont) {
-            this.times = nomeTimes;
-            this.pontuacao = pont;
-        }
-        public void dados() {
-            System.Console.WriteLine("\n\nTime: " + times + "/Pontuação: " + pontuacao);
+        public Times(string nomeTime, int pontuacao) {
+            this.time = nomeTime;
+            this.pont = pontuacao;
         }
     }
 } 
-
