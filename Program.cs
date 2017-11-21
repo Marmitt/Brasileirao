@@ -7,7 +7,7 @@ namespace Brasileirao
         static void Main(string[] args)
         {
             ConsoleKeyInfo a;
-            Tabela t = new Tabela();
+            TabelaBrasileirao t = new TabelaBrasileirao();
 
             do {
                 System.Console.WriteLine("Menu:");
