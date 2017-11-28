@@ -23,7 +23,7 @@ namespace Brasileirao
                 }
             } while (a.Key != ConsoleKey.D2);
 
-            System.Console.WriteLine("Tabela");
+            System.Console.WriteLine("Tabela"); 
             t.resultado();
         }
     }
