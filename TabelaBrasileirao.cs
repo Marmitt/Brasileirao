@@ -16,9 +16,10 @@ namespace Brasileirao
         public void resultado() {
             string premiacao = "";
             for (int i = 0; i < this.times.Count; i++) {
+                premiacao = "";
                 if (i == 0)
                     premiacao = "= Campeão";
-                if (i >= 2)
+                if (i >= 2) 
                 if (i >= this.times.Count - quantreb)
                     premiacao = "= Rebaixado";
                 times.Sort((a, b) => b.pont.CompareTo(a.pont));
